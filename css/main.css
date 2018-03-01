@@ -92,13 +92,12 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 padding:0;
 text-align:center;
 margin-right:115px;
-padding-top:11px;
-padding-bottom:11px;
+padding:10px 0 10px 0;
 }
 .menu li {
 	display:inline;
 	margin-left:10px;
-
+   
 }
 .menu a {
 	list-style:none;
@@ -114,11 +113,11 @@ padding-bottom:11px;
 .sub-menu {
     position:absolute;
    width:100%;
-	
-   	
+margin-top:9px;
+   	background:#fff;
 }
 .sub-menu ul{
-	margin-top:8px;
+
 	margin-left:90px;
 
 }
@@ -127,7 +126,7 @@ border-bottom:3px solid #6397aa;
 	
 }
 .sub-menu a {
-	color:#698a96;
+	color:#849fa9;
 	
 }
 .sub-menu {
@@ -161,12 +160,12 @@ border-bottom:3px solid #6397aa;
 }
 .sidebar li  {
 	list-style:none;
-   padding-top:2px;
-   padding-bottom:14px;
+padding-top:5px;
+    
    
 }
 .sidebar ul {
-
+ 
 	
 }
 .sidebar a {
@@ -175,7 +174,8 @@ border-bottom:3px solid #6397aa;
    font-size:14px;
    padding:8px 8px;
    border-radius:2px;
-   padding-right:60px;
+   padding-right:30px;
+   display:block;
 }
 .sidebar .fea {
 	padding-bottom:25px;
@@ -186,6 +186,7 @@ border-bottom:3px solid #6397aa;
 
 
 .sidebar li a:hover {
+	
 	color:#fff;
 	background:#6397aa;
 	
@@ -224,35 +225,36 @@ border-bottom:3px solid #6397aa;
 }
 .red-circle {
 	position:absolute;
-	margin-top:-65px;
-	
+	margin-top:-66px;
+	margin-left:-5px;
 }
 .red-circle img {
-	width:45px;
-	height:45px;
+	width:48px;
+	height:48px;
 	
 }
 .red-circle span {
 	position:absolute;
 	text-align:center;
 	margin-left:-41px;
-	margin-top:9px;
+	margin-top:10px;
 	color:#fff;
+	font-size:13px;
 }
 .orange-circle {
 	  position:absolute;
-	margin-top:-63px;
-	margin-left:40px;
+	margin-top:-65px;
+	margin-left:38px;
 }
 .orange-circle img {
-		width:45px;
-	height:45px;
+		width:48px;
+	height:48px;
 }
 .free {
-	font-size:15px;
+	font-size:14px;
 	font-weight:bold;
     position:absolute;
-   margin-top:8px;
+   margin-top:9px;
 margin-left:-39px;
 color:#fff;
 }
@@ -260,7 +262,7 @@ color:#fff;
 	position:absolute;
 	margin-top:27px;
 	font-size:8px;
-	margin-left:-41px;
+	margin-left:-42px;
 	color:#fff;
 }
 
@@ -322,19 +324,19 @@ float:left;
 }
 .yellow-circle {
 	position:absolute;
-	margin-top:-63px;
+	margin-top:-67px;
 	margin-left:5px;
 }
 .yellow-circle img {
-	width:45px;
+	width:48px;
 
-	height:45px;
+	height:48px;
 	
 }
 .yellow-circle span {
 	position:absolute;
-	margin-left:-39px;
-	margin-top:15px;
+	margin-left:-40px;
+	margin-top:16px;
 	color:#fff;
 }
 .under2 {
@@ -392,11 +394,13 @@ float:left;
 	margin-left:15px;
 	font-weight:bold;
 	color:#1e2934;
+	font-size:14px;
 }
 .plusik {
 	float:right;
 	margin-top:10px;
 	margin-right:25px;
+	pointer-events:none;
 }
 .right-block {
 	float:right;
@@ -416,12 +420,13 @@ float:left;
 	float:right;
 	font-weight:bold;
 	color:#1e2934;
-	
+	font-size:14px;
 }
 .plusik2 {
 	float:left;
 	margin-top:10px;
     margin-right:5px;
+	pointer-events:none;
 }
 .first-obj {
 	float:left;
@@ -431,7 +436,7 @@ float:left;
 
 .strikethrough {
     position: relative;
-    font-size: 20px;
+    font-size: 19px;
 	color:#FF0000;
 	font-weight:bold;
 
@@ -447,7 +452,7 @@ float:left;
 }
 .actual-price {
 	color:#99c873;
-	font-size:28px;
+	font-size:27px;
 	font-weight:bold;
 	
 }
@@ -481,6 +486,7 @@ float:left;
 	position:absolute;
 	margin-top:80px;
 	margin-left:-13px;
+	font-size:14px;
 }
 
  .podval {
