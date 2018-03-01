@@ -107,7 +107,7 @@ padding:10px 0 10px 0;
 }
 .menu li a:hover {
 		border-bottom:3px solid white;
-	padding-bottom:10px;
+	padding-bottom:9px;
 	
 }
 .sub-menu {
@@ -117,7 +117,7 @@ margin-top:10px;
    	background:#fff;
 }
 .sub-menu ul{
-
+ padding:8px 0 10px 0;
 	margin-left:90px;
 
 }
