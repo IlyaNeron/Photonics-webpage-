@@ -533,36 +533,22 @@ float:right;
 	font-size:14px;
 }
  
- .icons {
+.icons {
 	 float:right;
 	 margin-right:25px;
 	 margin-top:42px;
 	 display:flex;
  }
- .icons ul {
-	margin:0;
-padding:0;	
- }
+ 
  .icons li {
 	list-style:none;
 display:inline-block;	
 	 z-index:10;
  }
- .icons a:first-child {
-
- }
+ 
  .icons img {
-	 
- }
- .face-icon a {
-	border:2px solid #3b5999;
-	 padding:1px 13px;
-	 font-size:25px;
-	 font-weight:bold;
-	 text-decoration:none;
-	 float:right;
-	 margin-bottom:7px;
-	 
+	 width:50px;
+	 height:52px;
  }
  
 #slider{ /*центровка слайдера*/
