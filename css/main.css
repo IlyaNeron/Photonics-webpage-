@@ -76,8 +76,9 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	background:#ffffff;
 	position:absolute;
 	outline:none;
-    margin-top:3px;
-	margin-left:-6px;
+   top:0;
+   bottom:0;
+   right:0;
 	
 }
 .menu {
