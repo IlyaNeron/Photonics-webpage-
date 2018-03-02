@@ -2,7 +2,7 @@ body {
 	background:url(../images/background.png);
 	background-repeat:repeat;
 	font-family: 'Droid Sans', arial;
-	
+	margin:0;
    
 }
 ul {list-style:none; padding:0; margin:0;}
@@ -14,10 +14,13 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration { display: none; }
 
-
+a:hover {
+	
+}
 .page {
 	position:relative;
 	overflow:hidden;
+
 }
 .container {
 	width:1090px;
@@ -25,6 +28,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	margin:0 auto;
 	
 }
+
 .ph {
 	float:left;
 	margin-top:30px;
@@ -40,16 +44,35 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .contacts a {
 	text-decoration:none;
 	margin-left:8px;
-	margin-top:7px;
-	margin-right:0px;
-	color:#848585;
-	border-bottom:1px solid #848585;
 	font-size:15px;
-    float:right;
 }
-.contacts b {
+.tel a {
 	color:#101a5e;
+border:none;
+font-weight:bold;
+}
+.tel a:hover {
+	color:#325f70;
+	background:#fff;
+}
+.point {
+	font-weight:normal;
+float:left;
+	color:#101a5e;
+}
 
+.nav-form a{
+	 margin-top:6px;
+	 float:right;
+	 font-size:14px;
+     border-bottom:1px solid #848585;
+  	 color:#848585;
+}
+.nav-form a:hover  {
+	border:none;
+	
+	
+	
 }
 .search {
 	float:right;
@@ -65,7 +88,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 .input {
   height:35px;
 	border:none;
-	margin-left:10px;
+	margin-left:5px;
 
     width:265px;
 	outline:none;
@@ -85,7 +108,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 	margin-top:119px;
 	background:#000a52;
 	position:relative;
-	
+     
 }
 
 
@@ -118,9 +141,9 @@ margin-top:10px;
    	background:#fff;
 }
 .sub-menu ul{
- padding:8px 0 10px 0;
-	margin-left:90px;
 
+	margin-left:90px;
+     padding:8px 0 10px 0;
 }
 .sub-menu li a:hover{
 border-bottom:3px solid #6397aa;
@@ -133,6 +156,9 @@ border-bottom:3px solid #6397aa;
 .sub-menu {
 	border-bottom:1px solid #6397aa;
 	
+}
+ .small-cam:hover {
+	border:none;
 }
 
 .slider {
@@ -171,12 +197,13 @@ padding-top:5px;
 }
 .sidebar a {
    text-decoration:none;
-   color:#6397aa;
+   color:#325f70;
    font-size:14px;
    padding:8px 8px;
    border-radius:2px;
    padding-right:30px;
    display:block;
+  color:#6397aa;
 }
 .sidebar .fea {
 	padding-bottom:25px;
@@ -255,8 +282,10 @@ padding-top:5px;
 	font-size:14px;
 	font-weight:bold;
     position:absolute;
-   margin-top:9px;
-margin-left:-39px;
+
+left:0;
+top:0;
+padding:9px;
 color:#fff;
 }
 .ship {
@@ -280,8 +309,14 @@ color:#fff;
 	font-size:14px;
 	border-radius:2px;
 }
-.bottom-inf {
+.browse a:hover {
+	background:#9ed670;
+	color:#fff;
 	
+}
+.bottom-inf a:first-child:hover {
+	font-weight:bold;
+	color:#4e5052;
 }
 .under {
 float:left;
@@ -369,6 +404,10 @@ float:left;
 	color:#627b92;
 	font-size:14px;
 }
+.advert a:hover {
+	background:#eaeaea;
+	color:#67a4dc;
+}
 .weeks {
 	position:relative;
 
@@ -396,6 +435,7 @@ float:left;
 	font-weight:bold;
 	color:#1e2934;
 	font-size:14px;
+
 }
 .plusik {
 	float:right;
@@ -447,7 +487,7 @@ float:left;
     border-bottom: 1px solid red;
     position: absolute;
     content: "";
-    width: 110%;
+    width: 105%;
     height: 50%;
     transform: rotate(-15deg);
 }
@@ -475,6 +515,19 @@ float:left;
 	color:#fff;
 	
 }
+.under-buttons a:hover {
+		color:#99c873;
+	background:#fff;
+	
+}
+
+.under-buttons a:hover:first-child {
+background:#99c873;
+	color:#fff;
+}
+
+	
+
 .abs-bag {
 	position:absolute;
 	margin-left:140px;
@@ -533,8 +586,12 @@ float:right;
 	text-decoration:none;
 	font-size:14px;
 }
- 
-.icons {
+ .home a:hover {
+	color:#559bb5;
+    background:#fff;
+	
+}
+ .icons {
 	 float:right;
 	 margin-right:25px;
 	 margin-top:42px;
@@ -551,6 +608,7 @@ display:inline-block;
 	 width:50px;
 	 height:52px;
  }
+ 
  
 #slider{ /*центровка слайдера*/
 	margin:0 auto;
@@ -711,13 +769,14 @@ label, a{ /*при наведении на стрелки или переклю�
 margin-left:95px;
 margin-top:100px;
 height:250px;
+
 }
 .nikkor h2 {
 	text-align:left;
 	color:#325f70;
 	padding-bottom:10px;
 	font-size:30px;
-     
+	
 }
 .nikkor a {
 	text-decoration:none;
@@ -727,6 +786,12 @@ height:250px;
 	Float:left;
 	color:#93b7c6;
 	font-size:17px;
+	
+}
+.nikkor a:hover {
+	color:#559bb5;
+    background:#fff;
+	
 }
 .buttons {
 	float:left;
@@ -744,6 +809,17 @@ height:250px;
 	background:#99c873;
 	
 }
+.buttons a:hover {
+		color:#99c873;
+	background:#fff;
+	
+}
+.buttons a:last-child:hover {
+		color:#fff;
+	background:#99c873;
+	
+}
+
 .buttons a:last-child {
 	color:#99c873;
 	margin-left:5px;
