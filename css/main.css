@@ -780,7 +780,7 @@ label, a{ /*при наведении на стрелки или переклю�
 	float:right;
 }
 .nikkor {
-margin-left:95px;
+margin-left:100px;
 margin-top:100px;
 height:250px;
 
@@ -842,7 +842,7 @@ height:250px;
 .camera {
 	width:455px;
 	height:345px;
-	margin-right:36px;
+	margin-right:35px;
 	
 }
 
