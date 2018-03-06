@@ -224,7 +224,7 @@ padding-top:5px;
 .catalog {
 	float:right;
 	margin-right:16px;
-	margin-top:22px;
+	margin-top:20px;
 }
 .catalog li {
 	display:inline-block;
@@ -246,8 +246,8 @@ padding-top:5px;
 .catalog .instock {
 	float:right;
 	 color:#748ba1;
-	margin-top:-15px;
-	margin-right:5px;
+	margin-top:-30px;
+	margin-right:7px;
 	cursor:default;
 	
 }
@@ -295,6 +295,16 @@ color:#fff;
 	margin-left:-42px;
 	color:#fff;
 }
+.bottom-inf a:first-child  {
+	
+
+	
+}
+
+.bottom-inf  {
+	padding-top:5px;
+	
+}
 
 .browse {
 	margin-right:334px;
@@ -314,13 +324,17 @@ color:#fff;
 	color:#fff;
 	
 }
+.bottom-inf a {
+	padding-bottom:10px;
+	
+}
 .bottom-inf a:first-child:hover {
 	font-weight:bold;
 	color:#4e5052;
 }
 .under {
 float:left;
-	margin-bottom:7px;
+	margin-bottom:10px;
 	margin-left:40px;
 	position:relative;
 }
@@ -354,8 +368,8 @@ float:left;
 .under .instock {
 	float:right;
 	 color:#748ba1;
-	margin-top:-17px;
-	margin-right:6px;
+	margin-top:-30px;
+	margin-right:4px;
 	cursor:default;
 }
 .yellow-circle {
