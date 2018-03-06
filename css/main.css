@@ -655,7 +655,7 @@ article img{ /*размер изображений слайдера*/
 #switch5:checked ~ #controls label:nth-child(4),
 #switch6:checked ~ #controls label:nth-child(5)
 {
-	background: url('scob2.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url(../images/scob2.png) no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
 	margin-left:7px; /*сдвиг влево*/
 	margin-top:15px;
@@ -671,7 +671,7 @@ article img{ /*размер изображений слайдера*/
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(6),
 #switch6:checked ~ #controls label:nth-child(1){
-	background: url('scob1.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url(../images/scob1.png) no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
 	margin-top:15px;/*сдвиг вправо*/
 	margin-right:-53px;
@@ -831,3 +831,4 @@ height:250px;
 	margin-right:36px;
 	
 }
+
