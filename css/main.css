@@ -620,13 +620,13 @@ display:inline-block;
 }
 
 #slides article{ /*все изображени¤ справа друг от доруга*/
-	width: 16%;
+	width: 16.66%;
 	float: left;
 	height:360px;
 }
 
 #slides .image{ /*устанавливает общий размер блока с изображени¤ми*/
-	width: 625%;
+	width: 600%;
 	line-height: 0;
 }
 
