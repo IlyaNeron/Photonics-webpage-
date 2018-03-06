@@ -117,7 +117,9 @@ padding:0;
 text-align:center;
 margin-right:115px;
 padding:10px 0 10px 0;
+
 }
+
 .menu li {
 	display:inline;
 	margin-left:10px;
@@ -140,11 +142,7 @@ padding:10px 0 10px 0;
 margin-top:10px;
    	background:#fff;
 }
-.sub-menu ul{
 
-	margin-left:90px;
-     padding:8px 0 10px 0;
-}
 .sub-menu li a:hover{
 border-bottom:3px solid #6397aa;
 	
@@ -207,9 +205,10 @@ padding-top:5px;
 }
 .sidebar .fea {
 	padding-bottom:25px;
-	font-size:22px;
+	font-size:15px;
 	margin-left:7px;
 	margin-top:10px;
+	
 }
 
 
@@ -251,55 +250,53 @@ padding-top:5px;
 	cursor:default;
 	
 }
+	
 .red-circle {
 	position:absolute;
-	margin-top:-66px;
+	text-align:center;
+	border-radius:30px;
+	background:red;
+    width:48px;
+	height:48px;
+    margin-top:-67px;
 	margin-left:-5px;
 }
-.red-circle img {
-	width:48px;
-	height:48px;
+.red-circle a {
+	position:relative;
+	font-size:13px;
+    color:#fff;
+    font-size:13px;
+	top:10px;
+	display:block;
 	
 }
-.red-circle span {
-	position:absolute;
-	text-align:center;
-	margin-left:-41px;
-	margin-top:10px;
-	color:#fff;
-	font-size:13px;
-}
+
 .orange-circle {
-	  position:absolute;
-	margin-top:-65px;
+	  	position:absolute;
+	margin-top:-66px;
 	margin-left:38px;
-}
-.orange-circle img {
 		width:48px;
 	height:48px;
+	border-radius:30px;
+	background:orange;
+	text-align:center;
 }
-.free {
+.orange-circle a {
+	position:relative;
+	color:#fff;
+	display:block;
+	font-size:9px;
+	top:10px;
+	
+}
+.orange-circle span {
 	font-size:14px;
 	font-weight:bold;
-    position:absolute;
-
-left:0;
-top:0;
-padding:9px;
-color:#fff;
-}
-.ship {
-	position:absolute;
-	margin-top:27px;
-	font-size:8px;
-	margin-left:-42px;
-	color:#fff;
-}
-.bottom-inf a:first-child  {
 	
-
 	
 }
+
+
 
 .bottom-inf  {
 	padding-top:5px;
@@ -329,6 +326,7 @@ color:#fff;
 	
 }
 .bottom-inf a:first-child:hover {
+	
 	color:#4e5052;
 }
 .under {
@@ -359,7 +357,7 @@ float:left;
 	width:232px;
 	height:220px;
 }
-.under h2 {
+.under h3 {
 	font-weight:normal;
 	font-size:23px;
 	margin-bottom:10px;
@@ -399,9 +397,9 @@ float:left;
 	text-decoration:none;
 }
 
-.under2 h2 {
+.under2 h3 {
 	font-weight:normal;
-	
+	font-size:23px;
 }
 .under2 .adv {
 	border:1px solid lightgrey;
@@ -586,7 +584,7 @@ float:right;
 	margin-left:40px;
 	margin-top:47px;
 }
- .copy {
+ .copy h3 {
 	color:#325f70;
 	font-weight:bold;
 	font-size:14px;
@@ -777,6 +775,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 .camera {
 	float:right;
+	
 }
 .nikkor {
 margin-left:100px;
@@ -784,7 +783,7 @@ margin-top:100px;
 height:250px;
 
 }
-.nikkor h2 {
+.nikkor h3 {
 	text-align:left;
 	color:#325f70;
 	padding-bottom:10px;
@@ -841,7 +840,10 @@ height:250px;
 .camera {
 	width:400px;
 	height:345px;
-	margin-right:95px;
+    padding-right:95px;
 	
 }
-
+.hidden-pool {
+	visibility:hidden;
+	position:absolute;
+}
